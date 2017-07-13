@@ -19,8 +19,23 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ex.1.std.cpp" />
+    <ClCompile Include="ex.2.namespace.cpp" />
+    <ClCompile Include="ex.3.1class.cpp" />
+    <ClCompile Include="ex.3.2.constructor.cpp" />
+    <ClCompile Include="ex.3.3.reference.cpp" />
+    <ClCompile Include="ex.3.4.copy.cpp" />
+    <ClCompile Include="ex.6.1.inheritance.cpp" />
+    <ClCompile Include="ex.6.3.inheritance_call.cpp" />
+    <ClCompile Include="ex.func_pointer.cpp" />
+    <ClCompile Include="ex.operator_overload.cpp" />
+    <ClCompile Include="ex.template.cpp" />
+    <ClCompile Include="ex.virtual_func.cpp" />
     <ClCompile Include="FriendClass.cpp" />
     <ClCompile Include="Friendfunction.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="standard.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
