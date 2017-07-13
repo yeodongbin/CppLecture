@@ -7,7 +7,7 @@ public:
 	CMyData(int nParam) : m_nData(nParam) {}
 	int GetData() const { return m_nData; }
 	void SetData(int nParam) { m_nData = nParam; }
-	// friend key word makes its function public type
+	// friend key word makes its function public type.
 	friend void PrintData(const CMyData &);
 
 private:
