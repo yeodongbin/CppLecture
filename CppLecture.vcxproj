@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="10.ExceptSample1.cpp" />
     <ClCompile Include="ex.1.std.cpp" />
     <ClCompile Include="ex.2.namespace.cpp" />
     <ClCompile Include="ex.3.1class.cpp" />
