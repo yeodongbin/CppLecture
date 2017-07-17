@@ -28,14 +28,14 @@
     <ClCompile Include="2.2.FunctionTemplete.cpp" />
     <ClCompile Include="2.1.DefaultParameter.cpp" />
     <ClCompile Include="ex.2.namespace.cpp" />
-    <ClCompile Include="ex.3.1class.cpp" />
+    <ClCompile Include="3.1.Class.cpp" />
     <ClCompile Include="ex.3.2.constructor.cpp" />
     <ClCompile Include="ex.3.3.reference.cpp" />
     <ClCompile Include="ex.3.4.copy.cpp" />
     <ClCompile Include="ex.6.1.inheritance.cpp" />
     <ClCompile Include="ex.6.3.inheritance_call.cpp" />
     <ClCompile Include="ex.func_pointer.cpp" />
-    <ClCompile Include="ex.operator_overload.cpp" />
+    <ClCompile Include="ex.OperatorOverload.cpp" />
     <ClCompile Include="ex.template.cpp" />
     <ClCompile Include="ex.virtual_func.cpp" />
     <ClCompile Include="FriendClass.cpp" />
@@ -49,13 +49,13 @@
     <ProjectGuid>{22B61F3E-1D15-4BDA-AEA1-F7376E8611AB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>CppLecture</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
