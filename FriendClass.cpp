@@ -20,6 +20,7 @@ class CMyList
 public:
 
 };
+
 //
 //int main() {
 //

@@ -19,8 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="1.4.ValuableType.cpp" />
+    <ClCompile Include="1.1.Cout_Cin.cpp" />
+    <ClCompile Include="1.0.HelloWorld.cpp" />
+    <ClCompile Include="1.7.RangeBasedFor.cpp" />
     <ClCompile Include="10.ExceptSample1.cpp" />
-    <ClCompile Include="ex.1.std.cpp" />
+    <ClCompile Include="1.6.ReferenceType.cpp" />
+    <ClCompile Include="2.2.FunctionTemplete.cpp" />
+    <ClCompile Include="2.1.DefaultParameter.cpp" />
     <ClCompile Include="ex.2.namespace.cpp" />
     <ClCompile Include="ex.3.1class.cpp" />
     <ClCompile Include="ex.3.2.constructor.cpp" />

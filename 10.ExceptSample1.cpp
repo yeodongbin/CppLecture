@@ -1,56 +1,155 @@
 
-
-
 #include "standard.h"
 
-void ExceptTest1()
+//////////////////////////////////////////////////////////////////////
+//
+// Memory Exception Operation
+//
+// By Yeo, Dongbin
+//////////////////////////////////////////////////////////////////////
+
+//#include <new>	
+//class CTest
+//{
+//public:
+//	CTest(int nSize)
+//	{
+//		m_pszData = new char[nSize];
+//	}
+//
+//	~CTest()
+//	{
+//		delete[] m_pszData;
+//		cout << "extinct object!" << endl;
+//	}
+//
+//private:
+//	char* m_pszData;
+//};
+//
+//int main()
+//{
+//	try
+//	{
+//		int nSize;
+//		cout << "Input Size : " ;
+//		cin >> nSize;
+//
+//		CTest a(nSize);
+//	}
+//
+//	catch (bad_alloc &exp)
+//	{
+//		cout << exp.what() << endl;
+//		cout << "ERROR: CTest()" << endl;
+//	}
+//
+//	return 0;
+//}
+
+//////////////////////////////////////////////////////////////////////
+//
+// Exception Class
+//
+// By Yeo, Dongbin
+//////////////////////////////////////////////////////////////////////
+
+class CMyException
 {
-	int nInput;
-
-	cout << "1~10 " << endl;
-	cin >> nInput;
-
-	if (nInput < 1 || nInput > 10)
-		throw nInput;
-}
-
-void ExceptTest2()
-{
-	char ch;
-	cout << "Menu : [A]dd\t[D]elete\t[E]xit\n:";
-	cin >> ch;
-
-	if (ch != 'A' && ch != 'D' && ch != 'E')
+public:
+	CMyException(int nCode, const char* pszMsg)
 	{
-		throw ch;
-	}
-}
-
-int main()
-{
-	cout << "***** 	 Begin   *****" << endl;
-	try
-	{
-		ExceptTest1();
-		ExceptTest2();
+		m_nErrorcode = nCode;
+		strcpy_s(m_szMsg, sizeof(m_szMsg), pszMsg);
 	}
 
-	catch (int nExp)
-	{
-		cout << "ERROR: " << nExp << "" << endl;
-	}
+	int GetErrorCode() const { return m_nErrorcode; }
+	const char* GetMessage()const { return m_szMsg; }
 
-	catch (char ch)
-	{
-		cout << "ERROR(ch): " << ch << "no manu" << endl;
-	}
+private:
+	int m_nErrorcode;
+	char m_szMsg[128];
+};
+//
+//int main()
+//{
+//	try
+//	{
+//
+//	}
+//
+//	catch
+//	{
+//
+//	}
+//}
 
-	cout << "*****	 End   *****" << endl;
-
-	return 0;
-}
 
 
+
+
+
+//////////////////////////////////////////////////////////////////////
+//
+// Catch Exception Operation
+//
+// By Yeo, Dongbin
+//////////////////////////////////////////////////////////////////////
+
+//void ExceptTest1()
+//{
+//	int nInput;
+//
+//	cout << "1~10 " << endl;
+//	cin >> nInput;
+//
+//	if (nInput < 1 || nInput > 10)
+//		throw nInput;
+//}
+//
+//void ExceptTest2()
+//{
+//	char ch;
+//	cout << "Menu : [A]dd\t[D]elete\t[E]xit\n:";
+//	cin >> ch;
+//
+//	if (ch != 'A' && ch != 'D' && ch != 'E')
+//	{
+//		throw ch;
+//	}
+//}
+//
+//int main()
+//{
+//	cout << "***** 	 Begin   *****" << endl;
+//	try
+//	{
+//		ExceptTest1();
+//		ExceptTest2();
+//	}
+//
+//	catch (int nExp)
+//	{
+//		cout << "ERROR: " << nExp << "" << endl;
+//	}
+//
+//	catch (char ch)
+//	{
+//		cout << "ERROR(ch): " << ch << "no manu" << endl;
+//	}
+//
+//	cout << "*****	 End   *****" << endl;
+//
+//	return 0;
+//}
+
+
+//////////////////////////////////////////////////////////////////////
+//
+//
+//
+//
+//////////////////////////////////////////////////////////////////////
 
 //int main()
 //{

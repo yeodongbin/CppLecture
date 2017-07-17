@@ -39,9 +39,6 @@
     <ClCompile Include="ex.virtual_func.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex.1.std.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ex.2.namespace.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -58,6 +55,27 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10.ExceptSample1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1.4.ValuableType.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1.1.Cout_Cin.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1.6.ReferenceType.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1.0.HelloWorld.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1.7.RangeBasedFor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2.2.FunctionTemplete.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2.1.DefaultParameter.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
