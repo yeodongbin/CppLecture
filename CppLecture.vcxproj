@@ -28,7 +28,10 @@
     <ClCompile Include="2.2.FunctionTemplete.cpp" />
     <ClCompile Include="2.1.DefaultParameter.cpp" />
     <ClCompile Include="2.4.namespace.cpp" />
-    <ClCompile Include="ex.3.1class.cpp" />
+    <ClCompile Include="2.5.IdentifierSearch.cpp" />
+    <ClCompile Include="3.1.C_StructFunc.c" />
+    <ClCompile Include="3.2.ClassStyle.cpp" />
+    <ClCompile Include="3.2Class.cpp" />
     <ClCompile Include="ex.3.2.constructor.cpp" />
     <ClCompile Include="ex.3.3.reference.cpp" />
     <ClCompile Include="ex.3.4.copy.cpp" />

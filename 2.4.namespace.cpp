@@ -9,6 +9,9 @@
 #include <iostream>
 using namespace std;
 
+//Second Lecture of Namespace 1
+void TestFunc(void) {	cout << "TEST::TestFunc() Global Variable" << endl; }
+
 // Namespace TEST
 namespace TEST 
 {
@@ -38,6 +41,12 @@ namespace TEST
 	{
 		return param1 + param2;
 	}
+
+	//Second Lecture of Namespace 2
+	void TestFunc(void)
+	{
+		cout << "TEST::TestFunc() TEST Namespace" << endl;
+	}
 }
 
 // Namespace CALCUL
@@ -66,25 +75,39 @@ namespace CALCUL
 	}
 }
 
-using namespace TEST;
+namespace MYDATA
+{
+	//Second Lecture of Namespace 3
+	void TestFunc(void)
+	{
+		cout << "TEST::TestFunc() MYDATA" << endl;
+	}
+}
+
+//using namespace TEST; //Second Lecture
 using namespace CALCUL;
 
-
-int main()
-{
-	test_func();
-
-	cout << gNumData << endl;
-	cout << TEST_DEV::gNumData << endl;
-	cout << TEST_DEV::TEST_DEV_WIN::gNumData << endl;// Namespace Util
-
-	////////////////////////////////////// parameter initialize
-	cout << test_func2(40) << endl;
-
-	////////////////////////////////////// parameter initialize2
-	cout << test_func3(40) << endl;
-	cout << test_func3(40, 60) << endl;
-
-
-	return 0;
-}
+//
+//int main()
+//{
+//	//test_func();
+//
+//	//cout << gNumData << endl;
+//	//cout << TEST_DEV::gNumData << endl;
+//	//cout << TEST_DEV::TEST_DEV_WIN::gNumData << endl;// Namespace Util
+//
+//	//////////////////////////////////////// parameter initialize
+//	//cout << test_func2(40) << endl;
+//
+//	//////////////////////////////////////// parameter initialize2
+//	//cout << test_func3(40) << endl;
+//	//cout << test_func3(40, 60) << endl;
+//
+//	// Second Lecture Call 
+//	TestFunc(); //Implied Global variable
+//	::TestFunc(); //Explicit Global variable
+//	TEST::TestFunc();
+//	MYDATA::TestFunc();
+//
+//	return 0;
+//}
