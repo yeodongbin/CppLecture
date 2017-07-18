@@ -33,13 +33,7 @@
     <ClCompile Include="ex.operator_overload.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex.template.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ex.virtual_func.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex.2.namespace.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex.3.1class.cpp">
@@ -76,6 +70,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2.1.DefaultParameter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2.4.namespace.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex.ClassTemplate.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

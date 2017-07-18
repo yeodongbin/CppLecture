@@ -1,6 +1,15 @@
-#include "standard.h"
+//////////////////////////////////////////////////////////////////////
+// Date : 2017-07-17
+// Title : Namespace
+//
+// By Yeo, Dongbin
+//////////////////////////////////////////////////////////////////////
+
+
+#include <iostream>
 using namespace std;
 
+// Namespace TEST
 namespace TEST 
 {
 	int gNumData = 100;
@@ -30,6 +39,8 @@ namespace TEST
 		return param1 + param2;
 	}
 }
+
+// Namespace CALCUL
 namespace CALCUL
 {
 	int add_int(int a, int b)
@@ -58,13 +69,14 @@ namespace CALCUL
 using namespace TEST;
 using namespace CALCUL;
 
-void imp_namespace() 
+
+int main()
 {
 	test_func();
 
 	cout << gNumData << endl;
 	cout << TEST_DEV::gNumData << endl;
-	cout << TEST_DEV::TEST_DEV_WIN::gNumData << endl;
+	cout << TEST_DEV::TEST_DEV_WIN::gNumData << endl;// Namespace Util
 
 	////////////////////////////////////// parameter initialize
 	cout << test_func2(40) << endl;
@@ -72,4 +84,7 @@ void imp_namespace()
 	////////////////////////////////////// parameter initialize2
 	cout << test_func3(40) << endl;
 	cout << test_func3(40, 60) << endl;
+
+
+	return 0;
 }
