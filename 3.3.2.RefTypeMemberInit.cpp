@@ -12,16 +12,16 @@ public:
 private:
 	int &m_nData;
 };
-
-int main()
-{
-	int a = 10;
-	CRefTest t(a);//Ref Type
-
-	cout << t.GetData() << endl;
-
-	a = 20;
-	cout << t.GetData() << endl;
-
-	return 0;
-}
+//
+//int main()
+//{
+//	int a = 10;
+//	CRefTest t(a);//Ref Type
+//
+//	cout << t.GetData() << endl;
+//
+//	a = 20;
+//	cout << t.GetData() << endl;
+//
+//	return 0;
+//}

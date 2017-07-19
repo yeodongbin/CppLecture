@@ -24,16 +24,10 @@
     <ClCompile Include="ex.func_pointer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex.operator_overload.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ex.virtual_func.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex.3.3.reference.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex.3.4.copy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10.ExceptSample1.cpp">
@@ -69,9 +63,6 @@
     <ClCompile Include="2.5.IdentifierSearch.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3.4.Class.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="3.1.1.C_StructFunc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -100,6 +91,30 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="3.3.2.RefTypeMemberInit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.3.3.ConstructorMultiDef.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.4.1.ThisPointer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.4.0.Method.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.4.3.ConstMethod.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5.StaticMember.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.1.CopyConstructor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex.3.4.DeepShallowCopy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex.OperatorOverload.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
