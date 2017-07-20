@@ -117,6 +117,15 @@
     <ClCompile Include="4.1.0.CopyConstructor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5.2.OperOverArithmetic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.3.OperOverAssign.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.3.2.OperOverAssignMove.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="standard.h">

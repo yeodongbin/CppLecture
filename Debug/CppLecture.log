@@ -1,6 +1,2 @@
-﻿  ex.OperatorOverload.cpp
-  ex.3.4.DeepShallowCopy.cpp
-  3.5.StaticMember.cpp
-  코드를 생성하고 있습니다...
-  CppLecture.vcxproj -> C:\Users\Yeo\Source\Repos\CppLecture\Debug\CppLecture.exe
-  CppLecture.vcxproj -> C:\Users\Yeo\Source\Repos\CppLecture\Debug\CppLecture.pdb (Partial PDB)
+﻿  5.3.OperOverAssign.cpp
+c:\users\yeo\source\repos\cpplecture\5.3.operoverassign.cpp(31): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
