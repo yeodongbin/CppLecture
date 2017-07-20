@@ -1,23 +1,2 @@
-﻿  Friendfunction.cpp
-  FriendClass.cpp
-  ex.virtual_func.cpp
-  ex.template.cpp
-  ex.operator_overload.cpp
-  ex.func_pointer.cpp
-  ex.6.3.inheritance_call.cpp
-  ex.6.1.inheritance.cpp
-  ex.3.4.copy.cpp
-  ex.3.3.reference.cpp
-  ex.3.2.constructor.cpp
-  ex.3.1class.cpp
-  ex.2.namespace.cpp
-  2.1.DefaultParameter.cpp
-  1.6.ReferenceType.cpp
-  10.ExceptSample1.cpp
-  1.7.RangeBasedFor.cpp
-  1.0.HelloWorld.cpp
-  1.1.Cout_Cin.cpp
-  1.4.ValuableType.cpp
-  코드를 생성하고 있습니다...
-  CppLecture.vcxproj -> C:\Users\Yeo\git\CppLecture\CppLecture\Debug\CppLecture.exe
-  CppLecture.vcxproj -> C:\Users\Yeo\git\CppLecture\CppLecture\Debug\CppLecture.pdb (Partial PDB)
+﻿  CppLecture.vcxproj -> C:\Users\Yeo\Source\Repos\CppLecture\Debug\CppLecture.exe
+  CppLecture.vcxproj -> C:\Users\Yeo\Source\Repos\CppLecture\Debug\CppLecture.pdb (Partial PDB)
