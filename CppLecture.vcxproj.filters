@@ -108,13 +108,13 @@
     <ClCompile Include="3.5.StaticMember.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4.1.CopyConstructor.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex.3.4.DeepShallowCopy.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ex.OperatorOverload.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.1.2.DeepShallowCopy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.1.0.CopyConstructor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
