@@ -52,16 +52,16 @@ public:
 	}
 };
 
-
-int main()
-{
-	CMyData a(0), b(5);
-	a = b;
-	cout << a << endl; //자동형변환
-
-	CMyData c(0), d(5);
-	c += d;
-	cout << c << endl;
-
-	return 0;
-}
+//
+//int main()
+//{
+//	CMyData a(0), b(5);
+//	a = b;
+//	cout << a << endl; //자동형변환
+//
+//	CMyData c(0), d(5);
+//	c += d;
+//	cout << c << endl;
+//
+//	return 0;
+//}

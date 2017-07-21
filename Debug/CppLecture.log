@@ -1,2 +1,3 @@
-﻿  CppLecture.vcxproj -> C:\Users\Yeo\Source\Repos\CppLecture\Debug\CppLecture.exe
-  CppLecture.vcxproj -> C:\Users\Yeo\Source\Repos\CppLecture\Debug\CppLecture.pdb (Partial PDB)
+﻿  4.3.3.MoveSemantics.cpp
+c:\users\yeo\source\repos\cpplecture\4.3.3.movesemantics.cpp(49): error C2280: 'CTestData &CTestData::operator =(const CTestData &)': 삭제된 함수를 참조하려고 합니다.
+  c:\users\yeo\source\repos\cpplecture\4.3.3.movesemantics.cpp(28): note: 컴파일러에서 여기에 'CTestData::operator ='을(를) 생성했습니다.

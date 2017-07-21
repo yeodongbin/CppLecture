@@ -51,7 +51,7 @@ void TestFunc(CTestData& param) //CTestData 객체가 1개 생김
 }
 
 
-//이름 없는 임시객체 
+//4.3.1  이름 없는 임시객체 
 class CTempData
 {
 private:
