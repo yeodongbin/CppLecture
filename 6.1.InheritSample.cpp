@@ -1,14 +1,14 @@
 #include <iostream>
-#include "standard.h"
+
 
 using namespace std;
 
 class CMyData
 {
-private:
+private: // 누구도 접근 불가
 	int m_nData = 0;
 
-protected:
+protected: //파생 클래스만 접근 가능
 	void PrintData() { cout << "CMData::PrintData()" << endl; }
 
 public:
@@ -18,7 +18,7 @@ public:
 	void SetData(int nParam) {	m_nData = nParam; }
 };
 
-class CMyDataEx : public CMyData
+class CMyDataEx : public CMyData // 상속 CMyDataEx <<<<<<<<< CMyData
 {
 public:
 	CMyDataEx()	{cout << "CMyDataEx() " << endl; } //Constructor
@@ -30,8 +30,8 @@ public:
 		cout << CMyData::GetData() << endl;
 	}
 
-	//Overriding
-	/*void SetData(int nParam)
+	//Overriding //6.2 매서드 재정의
+	void SetData(int nParam)
 	{
 		if (nParam < 0)
 		{
@@ -44,14 +44,14 @@ public:
 			CMyData::SetData(10);
 			cout << " Overriding " << endl;
 		}
-	}*/
+	}
 };
-
+//
 //int main() 
 //{
 //	CMyDataEx data;
 //
-//	data.SetData(10);
+//	data.SetData(20);
 //	cout << data.GetData() << endl;
 //
 //	data.TestFunc();

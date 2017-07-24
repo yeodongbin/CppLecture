@@ -1,3 +1,18 @@
-﻿  4.3.3.MoveSemantics.cpp
-c:\users\yeo\source\repos\cpplecture\4.3.3.movesemantics.cpp(49): error C2280: 'CTestData &CTestData::operator =(const CTestData &)': 삭제된 함수를 참조하려고 합니다.
-  c:\users\yeo\source\repos\cpplecture\4.3.3.movesemantics.cpp(28): note: 컴파일러에서 여기에 'CTestData::operator ='을(를) 생성했습니다.
+﻿  Friendfunction.cpp
+  6.1.InheritSample.cpp
+  코드를 생성하고 있습니다...
+  건너뛰고 있습니다... (관련된 변경 내용 없음)
+  ex.OperatorOverload.cpp
+  ex.ClassTemplate.cpp
+  6.3.Inheritance_call.cpp
+  3.3.2.RefTypeMemberInit.cpp
+  3.3.1.NewDelete.cpp
+  3.2.1.MemberValueInit.cpp
+  3.1.2.ClassStyle.cpp
+  2.5.IdentifierSearch.cpp
+  2.4.namespace.cpp
+  2.2.FunctionTemplete.cpp
+  2.1.DefaultParameter.cpp
+  10.ExceptSample1.cpp
+  CppLecture.vcxproj -> C:\Users\Yeo\Source\Repos\CppLecture\Debug\CppLecture.exe
+  CppLecture.vcxproj -> C:\Users\Yeo\Source\Repos\CppLecture\Debug\CppLecture.pdb (Partial PDB)

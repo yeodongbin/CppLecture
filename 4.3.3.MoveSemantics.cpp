@@ -1,4 +1,4 @@
-//작성중
+//작성중 -> CTestData::operator =(const CTestData&) 
 #include <iostream>
 
 using namespace std;
@@ -19,7 +19,7 @@ public:
 	}
 
 	// 이동 생성자
-	CTestData(const CTestData&& rhs) : m_nData(rhs.m_nData)
+	CTestData(CTestData&& rhs) : m_nData(rhs.m_nData)
 	{
 		cout << "CTestData(const CTestData && )" << endl;
 	}
@@ -29,7 +29,6 @@ public:
 };
 
 
-
 CTestData TestFunc(int nParam)
 {
 	cout << "** Test Function () : Begin ***" << endl;
@@ -37,21 +36,23 @@ CTestData TestFunc(int nParam)
 	CTestData a;
 	a.SetData(nParam);
 
-	cout << "** Test Function () : End  ***" << endl;
+	cout << "** Test Function () : End  ***" << endl;    
+
+	return a;
 }
-
-
-int main()
-{
-	CTestData b;
-
-	cout << "*Before **************" << endl;
-
-	b = TestFunc(20);
-
-	cout << "**After *************" << endl;
-
-	CTestData c(b);
-
-	return 0;
-}
+//
+//
+//int main()
+//{
+//	CTestData b;
+//
+//	cout << "*Before **************" << endl;
+//
+//	b = TestFunc(20);
+//
+//	cout << "**After *************" << endl;
+//
+//	CTestData c(b);
+//
+//	return 0;
+//}

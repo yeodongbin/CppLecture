@@ -24,9 +24,6 @@
     <ClCompile Include="ex.func_pointer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex.virtual_func.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ex.3.3.reference.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -123,9 +120,6 @@
     <ClCompile Include="3.3.3.ConstructorMultiDef.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6.1.Inheritance.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="5.3.0.OperOverAssign.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -136,6 +130,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="4.3.3.MoveSemantics.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.1.InheritSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.1.VirtualFunction.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

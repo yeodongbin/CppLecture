@@ -1,13 +1,13 @@
-#include "standard.h"
-
+#include <iostream>
 using namespace std;
 
 class CMyData
 {
 protected:
 	int m_nData = 10;
+
 public:
-	virtual void PrintData() 
+	virtual void PrintData() //가상함수 선언, 정의
 	{
 		cout << " CMyData: = " << m_nData << endl;
 	}
@@ -38,14 +38,17 @@ public:
 	}
 };
 
-//int main()
-//{
-//	CMyDataEx a;
-//	a.PrintData();
-//	cout << endl;
-//
-//	CMyData& b = a;
-//	b.PrintData();
-//
-//	a.TestFunc();
-//}
+int main()
+{
+	CMyDataEx a;
+	a.PrintData();
+
+	cout << endl;
+
+	CMyData& b = a;
+	b.PrintData();
+
+	a.TestFunc();
+
+	return 0;
+}

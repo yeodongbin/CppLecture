@@ -51,12 +51,12 @@
     <ClCompile Include="5.3.0.OperOverAssign.cpp" />
     <ClCompile Include="ex.3.3.reference.cpp" />
     <ClCompile Include="4.1.2.DeepShallowCopy.cpp" />
-    <ClCompile Include="6.1.Inheritance.cpp" />
+    <ClCompile Include="6.1.InheritSample.cpp" />
     <ClCompile Include="6.3.Inheritance_call.cpp" />
     <ClCompile Include="ex.func_pointer.cpp" />
     <ClCompile Include="ex.OperatorOverload.cpp" />
     <ClCompile Include="ex.ClassTemplate.cpp" />
-    <ClCompile Include="ex.virtual_func.cpp" />
+    <ClCompile Include="7.1.VirtualFunction.cpp" />
     <ClCompile Include="FriendClass.cpp" />
     <ClCompile Include="Friendfunction.cpp" />
   </ItemGroup>

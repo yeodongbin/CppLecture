@@ -1,2 +1,4 @@
-﻿  CppLecture.vcxproj -> C:\Users\Yeo\Source\Repos\CppLecture\x64\Debug\CppLecture.exe
-  CppLecture.vcxproj -> C:\Users\Yeo\Source\Repos\CppLecture\x64\Debug\CppLecture.pdb (Partial PDB)
+﻿cl : 명령줄 warning D9028: 최소 다시 빌드에 실패했습니다. 정상 빌드로 되돌립니다.
+  4.3.3.MoveSemantics.cpp
+c:\users\yeo\source\repos\cpplecture\4.3.3.movesemantics.cpp(51): error C2280: 'CTestData &CTestData::operator =(const CTestData &)': 삭제된 함수를 참조하려고 합니다.
+  c:\users\yeo\source\repos\cpplecture\4.3.3.movesemantics.cpp(29): note: 컴파일러에서 여기에 'CTestData::operator ='을(를) 생성했습니다.
