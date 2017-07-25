@@ -18,9 +18,6 @@
     <ClCompile Include="FriendClass.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Friendfunction.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ex.func_pointer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -52,9 +49,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2.4.namespace.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex.ClassTemplate.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2.5.IdentifierSearch.cpp">
@@ -135,7 +129,34 @@
     <ClCompile Include="6.1.InheritSample.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="7.1.VirtualFunction.cpp">
+    <ClCompile Include="8.1.1.FriendFunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.1.ClassTemplate.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.1.1.VirtualFunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.1.3.VirtualDestructor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.3.0.PureVirtualSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.3.1.InterfaceSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.3.2.AbstractSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.4.Cast.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.5.InheritOperOver.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.6.1.MultiInherit.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
