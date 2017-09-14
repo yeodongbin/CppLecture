@@ -25,6 +25,13 @@
     <ClCompile Include="1.7.RangeBasedFor.cpp" />
     <ClCompile Include="10.ExceptSample1.cpp" />
     <ClCompile Include="1.6.ReferenceType.cpp" />
+    <ClCompile Include="12.1.1.StringContainer.cpp" />
+    <ClCompile Include="12.1.2.Vector.cpp" />
+    <ClCompile Include="12.2.0.cpp" />
+    <ClCompile Include="12.2.1.FunctionPtrCallBack.cpp" />
+    <ClCompile Include="12.2.2.FunctionObject.cpp" />
+    <ClCompile Include="12.2.3.LambdaSort.cpp" />
+    <ClCompile Include="12.2.4.LambdaCap.cpp" />
     <ClCompile Include="2.2.FunctionTemplete.cpp" />
     <ClCompile Include="2.1.DefaultParameter.cpp" />
     <ClCompile Include="2.4.namespace.cpp" />
@@ -57,14 +64,17 @@
     <ClCompile Include="7.4.Cast.cpp" />
     <ClCompile Include="7.5.InheritOperOver.cpp" />
     <ClCompile Include="7.6.1.MultiInherit.cpp" />
-    <ClCompile Include="ex.3.3.reference.cpp" />
+    <ClCompile Include="7.6.3.Multi_Inherit_Interface.cpp" />
+    <ClCompile Include="8.2.1.Compositions_Aggregation.cpp" />
+    <ClCompile Include="9.1.2.TemplateParam.cpp" />
+    <ClCompile Include="9.2.1.TemplateFunctionSpecial.cpp" />
     <ClCompile Include="4.1.2.DeepShallowCopy.cpp" />
     <ClCompile Include="6.1.InheritSample.cpp" />
     <ClCompile Include="6.3.Inheritance_call.cpp" />
     <ClCompile Include="ex.func_pointer.cpp" />
     <ClCompile Include="ex.OperatorOverload.cpp" />
-    <ClCompile Include="9.1.ClassTemplate.cpp" />
-    <ClCompile Include="FriendClass.cpp" />
+    <ClCompile Include="9.1.1.ClassTemplate.cpp" />
+    <ClCompile Include="8.1.3.FriendClass.cpp" />
     <ClCompile Include="8.1.1.FriendFunction.cpp" />
   </ItemGroup>
   <ItemGroup>

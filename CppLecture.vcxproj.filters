@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FriendClass.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ex.func_pointer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex.3.3.reference.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10.ExceptSample1.cpp">
@@ -132,9 +126,6 @@
     <ClCompile Include="8.1.1.FriendFunction.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="9.1.ClassTemplate.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="7.1.1.VirtualFunction.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -157,6 +148,45 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="7.6.1.MultiInherit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.6.3.Multi_Inherit_Interface.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8.1.3.FriendClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8.2.1.Compositions_Aggregation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.1.2.TemplateParam.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.1.1.ClassTemplate.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.2.1.TemplateFunctionSpecial.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12.1.1.StringContainer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12.1.2.Vector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12.2.1.FunctionPtrCallBack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12.2.0.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12.2.2.FunctionObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12.2.3.LambdaSort.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12.2.4.LambdaCap.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
