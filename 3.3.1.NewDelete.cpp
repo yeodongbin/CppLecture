@@ -18,21 +18,21 @@ public:
 	}
 };
 
-//
-//int main()
-//{
-//	cout << "** Begin **" << endl;
-//
-//	CTest* pTest = new CTest; // Dynamic allocation
-//	cout << "  Test" << endl;
-//	delete pTest;
-//	cout << endl;
-//
-//	CTest* pArray = new CTest[4]; // Dynamic Array Allocation
-//	cout << "  Test[]" << endl;
-//	delete[] pArray;
-//
-//	cout << "** End **" << endl;
-//
-//	return 0;
-//}
+
+int main()
+{
+	cout << "** Begin **" << endl;
+
+	CTest* pTest = new CTest; // Dynamic allocation
+	cout << "  Test" << endl;
+	delete pTest;
+	cout << endl;
+
+	CTest* pArray = new CTest[4]; // Dynamic Array Allocation
+	cout << "  Test[]" << endl;
+	delete[] pArray;
+
+	cout << "** End **" << endl;
+
+	return 0;
+}

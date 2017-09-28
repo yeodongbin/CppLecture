@@ -24,9 +24,6 @@
     <ClCompile Include="1.4.ValuableType.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1.1.Cout_Cin.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1.6.ReferenceType.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -48,16 +45,7 @@
     <ClCompile Include="2.5.IdentifierSearch.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3.1.1.C_StructFunc.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="3.1.3.Class_Member.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="3.1.2.ClassStyle.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="3.2.1.MemberValueInit.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="3.2.2.AccessModifior.cpp">
@@ -187,6 +175,30 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="12.2.4.LambdaCap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13.FileIO-.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.1.1.C_StructFunc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.2.0.ClassGrammar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.2.1.MemberInit1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.2.1.MemberInit4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.2.1.Membe-.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.3.0.Constructor2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
