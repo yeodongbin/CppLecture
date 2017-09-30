@@ -28,9 +28,11 @@ int main()
 	delete pTest;
 	cout << endl;
 
+	//2 객체는 무조건 생성자를 호출한다.
 	CTest* pArray = new CTest[4]; // Dynamic Array Allocation
 	cout << "  Test[]" << endl;
-	delete[] pArray;
+	delete[] pArray;//배열로 동적해제 ->1개만 동적해제될수 있다.
+	//delete pArray;
 
 	cout << "** End **" << endl;
 

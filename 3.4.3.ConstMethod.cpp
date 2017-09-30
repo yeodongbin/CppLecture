@@ -32,19 +32,19 @@ private:
 	int m_nData = 0;
 	mutable int m_nData2 = 0; // const method 에서도 변경가능(예외)
 };
-//
-//int main()
-//{
-//	CTest a(10);
-//	cout << a.GetData() << endl;
-//
-//	//Member Functin Multi Define 2
-//	CTest b;
-//	CTest c;
-//	b.SetData(11);
-//	c.SetData(1.2);
-//	cout << b.GetData() << endl;
-//	cout << c.GetData() << endl;
-//
-//	return 0;
-//}
+
+int main()
+{
+	CTest a(10);
+	cout << a.GetData() << endl;
+
+	//Member Functin Multi Define 2
+	CTest b;
+	CTest c;
+	b.SetData(11);
+	c.SetData(1.2);
+	cout << b.GetData() << endl;
+	cout << c.GetData() << endl;
+
+	return 0;
+}

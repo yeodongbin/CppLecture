@@ -6,7 +6,6 @@ class CMyData
 {
 public:
 	CMyData(int nParam) : m_nData(nParam) {};
-
 	void PrintData()
 	{
 		cout << m_nData << endl;
@@ -14,7 +13,7 @@ public:
 		cout << this->m_nData << endl; //증말로 되는거
 		cout << this->CMyData::m_nData << endl;
 	}
-
+	
 	//void PrintData(CMyData* pData) //C 코드 스타링 수행한됨.
 	//{
 	//	CMyData* this = pData;
@@ -27,15 +26,15 @@ public:
 private:
 	int m_nData;
 };
-//
-//int main()
-//{
-//	CMyData a(5), b(10);
-//	a.PrintData();
-//	b.PrintData();
-//
-//	/*CMyData c(15);
-//	c.PrintData(&c);*/
-//
-//	return 0;
-//}
+
+int main()
+{
+	CMyData a(5), b(10);
+	a.PrintData();
+	b.PrintData();
+	//2
+	/*CMyData c(15);
+	c.PrintData(&c);*/
+
+	return 0;
+}
