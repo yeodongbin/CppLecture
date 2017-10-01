@@ -25,13 +25,13 @@ public:
 		return pos;
 	}
 };
-//
-//int main() 
-//{
-//	Point pos1(3, 4);
-//	Point pos1(3, 4);
-//	Point pos1(3, 4);
-//
-//	pos1.sh
-//	return 0;
-//}
+
+int main() 
+{
+	Point pos1(3, 4);
+	Point pos1(3, 4);
+	Point pos1(3, 4);
+
+	pos1.ShowPoisition();
+	return 0;
+}

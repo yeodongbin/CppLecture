@@ -1,3 +1,5 @@
+//클래스이름 (const 클래스이름 &rhs);
+
 
 #include <iostream>
 using namespace std;
@@ -93,36 +95,36 @@ CTempData TempFunc(int nParam)
 	return a;
 }
 
-//
-//int main() {
-//	//CMyData a;
-//	//a.SetData(10);
-//	//cout << "a: " << a.GetData() << endl;
-//
-//	//CMyData b(a);// Copy Constructor 
-//	//cout << "b: " << b.GetData() << endl;
-//
-//
-//	////매개변수로 사용되는 복사 생성자
-//	//cout << "****** begin ****** " << endl;
-//	//CTestData c(11); //CTestData 객체가 2개 생김
-//	//TestFunc(c);
-//	//cout << "c: " << c.GetData() << endl;
-//	//cout << "******  end  ****** " << endl;
-//
-//
-//	//이름 없는 임시객체 
-//	CTempData d(5, "b");
-//	cout << "===== before =====" << endl;
-//
-//	//d = TempFunc(10); //이름없는 객체 생성 //Debug 상태에서
-//	//TempFunc(10); //이름없는 객체 생성 //Debug 상태에서
-//					// Release 에서는 생성되지 않음
-//	CTempData &rData = TempFunc(10); // 이름없는 객체를 참조 변수로 
-//									 // 이름없는 객체가 Main 함수가 끝 날때까지 존재
-//
-//	cout << "===== after =====" << endl;
-//	cout << d.GetData()<< endl;
-//
-//	return 0;
-//}
+
+int main() {
+	CMyData a;
+	a.SetData(10);
+	cout << "a: " << a.GetData() << endl;
+
+	CMyData b(a);// Copy Constructor 
+	cout << "b: " << b.GetData() << endl;
+
+
+	//매개변수로 사용되는 복사 생성자
+	cout << "****** begin ****** " << endl;
+	CTestData c(11); //CTestData 객체가 2개 생김
+	TestFunc(c);
+	cout << "c: " << c.GetData() << endl;
+	cout << "******  end  ****** " << endl;
+
+
+	//이름 없는 임시객체 
+	CTempData d(5, "b");
+	cout << "===== before =====" << endl;
+
+	//d = TempFunc(10); //이름없는 객체 생성 //Debug 상태에서
+	//TempFunc(10); //이름없는 객체 생성 //Debug 상태에서
+					// Release 에서는 생성되지 않음
+	CTempData &rData = TempFunc(10); // 이름없는 객체를 참조 변수로 
+									 // 이름없는 객체가 Main 함수가 끝 날때까지 존재
+
+	cout << "===== after =====" << endl;
+	cout << d.GetData()<< endl;
+
+	return 0;
+}

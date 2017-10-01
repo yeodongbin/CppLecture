@@ -30,15 +30,15 @@ public:
 		return width * height;
 	}
 };
-//
-//int main()
-//{
-//	Rectangle rc(10, 5);
-//	int (Rectangle::*pf)(void) = &Rectangle::area;
-//
-//	cout << "rc.area(): " << rc.area() << endl;
-//	cout << "(rc.*pf)(): " << (rc.*pf)() << endl;
-//
-//	return 0;
-//}
-//
+
+int main()
+{
+	Rectangle rc(10, 5);
+	int (Rectangle::*pf)(void) = &Rectangle::area;
+
+	cout << "rc.area(): " << rc.area() << endl;
+	cout << "(rc.*pf)(): " << (rc.*pf)() << endl;
+
+	return 0;
+}
+
