@@ -45,12 +45,6 @@
     <ClCompile Include="5.3.2.OperOverAssignMove.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6.1.InheritSample.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6.3.Inheritance_call.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="7.1.1.VirtualFunction.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -208,6 +202,30 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex.Stack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.3.1.OperOverAssignComplex.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.4.0.OperOverArray.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.5.0.RelationalOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.6.0.OperOverIncrement.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.1.1.InheritSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.2.1.MethodOver1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.3.1.InheritAndConstructor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.3.2.SelectConstructor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
