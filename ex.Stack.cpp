@@ -2,21 +2,21 @@
 using namespace std;
 #define SIZE 10
 
-class Stack
+class Queue
 {
 private:
 	double *store;
 	int capacity;
 	int top;
 public:
-	Stack(int size)
+	Queue(int size)
 	{
 		capacity = size;
 		top = 0;
 		store = new double[size];
 	}
 
-	~Stack()
+	~Queue()
 	{
 		delete[]store;
 	}
@@ -59,7 +59,7 @@ public:
 };
 
 void main() {
-	Stack s(SIZE);
+	Queue s(SIZE);
 
 	s.push(2.0); 
 	s.push(11.1); 

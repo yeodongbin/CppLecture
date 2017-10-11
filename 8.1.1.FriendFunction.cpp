@@ -1,3 +1,6 @@
+//friend class 클래스 이름
+//friend 함수원형선언
+
 #include <iostream>
 using namespace std;
 
@@ -22,13 +25,13 @@ void PrintData(const CMyData& rData)
 	//private 에 접근가능
 	cout << "PrintData() : " << rData.m_nData << endl;
 }
-//
-//int main()
-//{
-//	CMyData a(5);
-//	PrintData(a);
-//
-//	return 0;
-//}
-//
+
+int main()
+{
+	CMyData a(5);
+	PrintData(a);
+
+	return 0;
+}
+
 

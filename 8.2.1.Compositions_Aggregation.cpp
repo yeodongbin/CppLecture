@@ -112,21 +112,21 @@ public:
 	}
 };
 
-//
-//int main() {
-//	//CMyList list;
-//	//list.AddNewNode("±æµ¿");
-//	//list.AddNewNode("Ã¶¼ö");
-//	//list.AddNewNode("¿µÈñ");
-//	
-//	//Composition
-//	/*CMyUI ui;
-//	ui.Run();
-//*/
-//	//Aggregation
-//	CMyList list;
-//	CMyUI ui(list);
-//	ui.Run();
-//
-//	return 0;
-//}
+
+int main() {
+	//CMyList list;
+	//list.AddNewNode("±æµ¿");
+	//list.AddNewNode("Ã¶¼ö");
+	//list.AddNewNode("¿µÈñ");
+	
+	//Composition
+	/*CMyUI ui;
+	ui.Run();
+*/
+	//Aggregation
+	CMyList list;
+	CMyUI ui(list);
+	ui.Run();
+
+	return 0;
+}

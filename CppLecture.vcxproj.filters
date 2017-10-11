@@ -198,9 +198,6 @@
     <ClCompile Include="8.2.1.Compositions_Aggregation.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="9.1.1.ClassTemplate.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="9.1.2.TemplateParam.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -237,11 +234,29 @@
     <ClCompile Include="ex.Car.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="9.1.0.TemplateSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.1.0.TemplateArray.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.1.1.TamplateMember.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.2.2.TemplateSpecial.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.3.0.TemplateInherit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex.SportsCar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex.Queue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="standard.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="ex.Car.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>

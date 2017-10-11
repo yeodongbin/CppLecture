@@ -24,8 +24,9 @@ private:
 	CNode m_HeadNode;
 
 public:
-	CMyList() : m_HeadNode("Dummy Head"){}
-	~CMyList()	{
+	CMyList() : m_HeadNode("Dummy Head") {}
+	~CMyList()
+	{
 		CNode* pNode = m_HeadNode.pNext;
 		CNode* pDelete = nullptr;
 
@@ -44,17 +45,19 @@ public:
 	{
 		CNode* pNode = new CNode(pszName);
 
+		//CNode »ç¿ë
 		pNode->pNext = m_HeadNode.pNext;
 		m_HeadNode.pNext = pNode;
 	}
 };
 
-//
-//int main() {
-//	CMyList list;
-//	list.AddNewNode("±æµ¿");
-//	list.AddNewNode("Ã¶¼ö");
-//	list.AddNewNode("¿µÈñ");
-//
-//	return 0;
-//}
+
+int main() 
+{
+	CMyList list;
+	list.AddNewNode("±æµ¿");
+	list.AddNewNode("Ã¶¼ö");
+	list.AddNewNode("¿µÈñ");
+
+	return 0;
+}
