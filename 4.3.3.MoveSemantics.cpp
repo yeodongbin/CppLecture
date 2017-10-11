@@ -40,19 +40,19 @@ CTestData TestFunc(int nParam)
 
 	return a;
 }
-//
-//
-//int main()
-//{
-//	CTestData b;
-//
-//	cout << "*Before **************" << endl;
-//
-//	b = TestFunc(20);
-//
-//	cout << "**After *************" << endl;
-//
-//	CTestData c(b);
-//
-//	return 0;
-//}
+
+
+int main()
+{
+	CTestData b;
+
+	cout << "*Before **************" << endl;
+
+	b = TestFunc(20);
+
+	cout << "**After *************" << endl;
+
+	CTestData c(b);
+
+	return 0;
+}

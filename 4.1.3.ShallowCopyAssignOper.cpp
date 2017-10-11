@@ -43,14 +43,14 @@ public:
 		return 0;
 	}
 };
-//
-//int main()
-//{
-//	//Deep Copy
-//	CMyData a(10);
-//	CMyData b(10);
-//
-//	//원래는 Shallow Copy -> Deep Copy
-//	a = b;
-//	cout << a.GetData() << endl;
-//}
+
+int main()
+{
+	//Deep Copy
+	CMyData a(10);
+	CMyData b(10);
+
+	//원래는 Shallow Copy -> Deep Copy
+	a = b;
+	cout << a.GetData() << endl;
+}

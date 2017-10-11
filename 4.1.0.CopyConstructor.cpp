@@ -1,16 +1,17 @@
 //클래스이름 (const 클래스이름 &rhs);
-
+//객체의 복사본을 생성할때 호출되는 생성자..
 
 #include <iostream>
 using namespace std;
 
 class CMyData
 {
+private:
+	int m_nData = 0;
+
 public:
 	CMyData() {	cout << "CMyData start" << endl;}
-
-	CMyData(const CMyData &rhs) // Copy Constructor Define / distinction
-		//:m_nData(rhs.m_nData) // --
+	CMyData(const CMyData &rhs) // 복사 생성자 //:m_nData(rhs.m_nData)
 	{
 		this->m_nData = rhs.m_nData; // --
 		cout << "CMyData(const CMyData &rhs) start" << endl;
@@ -18,9 +19,6 @@ public:
 
 	int GetData() const	{ return m_nData; }
 	void SetData(int nParam) { m_nData = nParam; }
-
-private:
-	int m_nData = 0;
 };
 
 //매개변수로 사용되는 복사 생성자
@@ -97,6 +95,8 @@ CTempData TempFunc(int nParam)
 
 
 int main() {
+	cout << "****** begin ****** " << endl;
+
 	CMyData a;
 	a.SetData(10);
 	cout << "a: " << a.GetData() << endl;
@@ -106,7 +106,7 @@ int main() {
 
 
 	//매개변수로 사용되는 복사 생성자
-	cout << "****** begin ****** " << endl;
+	
 	CTestData c(11); //CTestData 객체가 2개 생김
 	TestFunc(c);
 	cout << "c: " << c.GetData() << endl;

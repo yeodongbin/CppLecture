@@ -52,21 +52,21 @@ public:
 	}
 };
 
-//
-//int main()
-//{
-//	//상반된 두개의 클래스를 다중 상속하는 것은 문제 없음.
-//	CMyPicture a;
-//	cout << "Height : " << a.GetHeight() << endl;
-//	cout << "Width : " << a.GetWidth() << endl;
-//	cout << "Type : " << a.GetType() << endl;
-//
-//	//동일 함수 이름으로 모호성 발생
-//	//cout << "Size : " << a.GetSize() << endl;
-//	cout << "Size : " << a.CMyImage::GetSize() << endl;
-//	cout << "Size : " << a.CMyShape::GetSize() << endl;
-//
-//	// 사용하지 말자 정신건강에 안 좋다
-//
-//	return 0;
-//}
+
+int main()
+{
+	//상반된 두개의 클래스를 다중 상속하는 것은 문제 없음.
+	CMyPicture a;
+	cout << "Height : " << a.GetHeight() << endl;
+	cout << "Width : " << a.GetWidth() << endl;
+	cout << "Type : " << a.GetType() << endl;
+
+	//동일 함수 이름으로 모호성 발생
+	//cout << "Size : " << a.GetSize() << endl;
+	cout << "Size : " << a.CMyImage::GetSize() << endl;
+	cout << "Size : " << a.CMyShape::GetSize() << endl;
+
+	// 사용하지 말자 정신건강에 안 좋다
+
+	return 0;
+}

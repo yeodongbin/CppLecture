@@ -17,8 +17,6 @@ public :
 	virtual int GetRate() = 0;
 };
 
-
-
 class CMyDevice : public CMyUSB, public CMySerial
 {
 public:
@@ -27,10 +25,10 @@ public:
 
 	virtual int GetSignal() { return 0; }
 	virtual int GetRate() { return 0; }
-};/*
+};
 
 int main()
 {
 	CMyDevice dev;
 	return 0;
-}*/
+}
