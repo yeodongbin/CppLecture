@@ -204,15 +204,6 @@
     <ClCompile Include="9.2.1.TemplateFunctionSpecial.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10.ExceptSample1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12.1.1.StringContainer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12.1.2.Vector.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="12.2.0.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -253,6 +244,36 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex.Queue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10.1.3ExceptClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10.2.0.ExceptStack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10.3.0.ExceptAlloc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12.1.1.StringContainer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12.1.2.Vector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10.1.1.ExceptSample3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10.1.2.MultiCatch.cpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.4.1.AutoPtrSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.4.2.SharePtrSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.3.2.RvalueRef3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,4 +1,4 @@
-// ios <- istream , ostream <- iostream
+// ios <- ifstream , ofstream <- iostream
 
 //생성자 함수
 //ifstream (const char* szName, 
@@ -63,6 +63,9 @@ int main(void)
 	}
 	rFile.close(); //파일 읽기 닫기
 	
+
+
+
 	//**** open 함수 이용 *************************
 	ofstream wFile; //Object 생성
 	wFile.open("C:/test/test1.txt");
@@ -74,6 +77,9 @@ int main(void)
 	{
 		wFile.close();
 	}
+
+
+
 
 	ifstream rFile; //Object 생성
 	rFile.open("C:/test/test1.txt");

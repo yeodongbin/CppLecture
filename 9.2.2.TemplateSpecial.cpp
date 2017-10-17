@@ -23,6 +23,7 @@ public:
 	{
 		int nLen = strlen(pszParam);
 		m_Data = new char[nLen + 1];
+		strcpy(m_Data, pszParam); // 예제 실수
 	}
 	~CMyData()	{ delete []m_Data;	}
 
