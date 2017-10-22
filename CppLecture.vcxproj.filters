@@ -276,10 +276,24 @@
     <ClCompile Include="4.3.2.RvalueRef3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ex.StudentGradeMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex.StudentGradeFunc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ex.Car.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="ex.StudentGrade.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="StudentGrade.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>

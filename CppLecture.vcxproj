@@ -331,6 +331,8 @@
     <ClCompile Include="ex.Stack.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="ex.StudentGradeFunc.cpp" />
+    <ClCompile Include="ex.StudentGradeMain.cpp" />
     <ClCompile Include="test.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -339,6 +341,10 @@
     <ClInclude Include="ex.Car.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="ex.StudentGrade.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="StudentGrade.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
