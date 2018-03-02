@@ -20,10 +20,10 @@ void PrintData(USERDATA *pUser)
 int main()
 {
 	////1
-	//USERDATA user = { 20, "dongbin"};
-	//printf("%d, %s\n", user.nAge, user.szName);
-	////2
-	//PrintData(&user); //구조체와 함수를 엮을 수는 없을까?
+	USERDATA user = { 20, "dongbin"};
+	printf("%d, %s\n", user.nAge, user.szName);
+	//2
+	PrintData(&user); //구조체와 함수를 엮을 수는 없을까?
 
 	//3 
 	USERDATA user = {20, "dongbin", PrintData};

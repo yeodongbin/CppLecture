@@ -13,11 +13,10 @@ public: // public user
 	} 
 };
 
-//
-//int main()
-//{
-//	USERDATA user = { 20, "dongbin"};
-//	user.Print();
-//
-//	return 0;
-//}
+int main()
+{
+	USERDATA user = { 20, "dongbin"};
+	user.Print();
+
+	return 0;
+}

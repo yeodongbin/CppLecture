@@ -43,25 +43,25 @@ double Add(double a, double b)
 	return a + b ;
 }
 
-//int TestFunc(int a,int nParam = 10)
-//{
-//	return nParam;
-//}
-//
-//int main()
-//{
-//	cout << TestFunc() << endl;
-//	cout << TestFunc(20) << endl;
-//
-//	cout << TestFunc2(10) << endl;
-//	cout << TestFunc2(10,5) << endl;
-//
-//	//cout << TestFunc3(30) << endl;  //sError generation
-//
-//	//Polymorphism
-//	cout << Add(3, 4) << endl;
-//	cout << Add(3, 4,5) << endl;
-//	cout << Add(3.3, 4.4) << endl;
-//
-//	return 0;
-//}
+int TestFunc(int a,int nParam = 10)
+{
+	return nParam;
+}
+
+int main()
+{
+	cout << TestFunc() << endl;
+	cout << TestFunc(20) << endl;
+
+	cout << TestFunc2(10) << endl;
+	cout << TestFunc2(10,5) << endl;
+
+	//cout << TestFunc3(30) << endl;  //sError generation
+
+	//Polymorphism
+	cout << Add(3, 4) << endl;
+	cout << Add(3, 4,5) << endl;
+	cout << Add(3.3, 4.4) << endl;
+
+	return 0;
+}

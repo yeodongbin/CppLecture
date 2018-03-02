@@ -1,19 +1,19 @@
 #include "ex.StudentGrade.h"
 
-void StudentGrade::writeFile()
+void StudentInfo::writeFile(StudentGrade& _sg)
 {
 	ofstream wFile("StudentGradeResult.txt");
 
 	if (wFile.is_open())
 	{
-		wFile << idNum << " "
-			<< name << " "
-			<< kor << " "
-			<< eng << " "
-			<< math << " "
-			<< total << " "
-			<< avg << " "
-			<< grade << endl;
+		wFile << _sg.idNum << " "
+			<< _sg.name << " "
+			<< _sg.kor << " "
+			<< _sg.eng << " "
+			<< _sg.math << " "
+			<< _sg.total << " "
+			<< _sg.avg << " "
+			<< _sg.grade << endl;
 	}
 	else
 	{
@@ -23,7 +23,7 @@ void StudentGrade::writeFile()
 	wFile.close();
 	return ;
 }
-int StudentGrade::readFile()
+int StudentInfo::readFile(StudentGrade& _sg)
 {
 	int line = 0;
 
@@ -35,17 +35,17 @@ int StudentGrade::readFile()
 		while (!rFile.eof())
 		{
 			line++;
-			rFile >> idNum
-				>> name
-				>> kor
-				>> eng
-				>> math;
+			rFile >> _sg.idNum
+				>> _sg.name
+				>> _sg.kor
+				>> _sg.eng
+				>> _sg.math;
 
-			cout << idNum << " "
-				<< name << " "
-				<< kor << " "
-				<< eng << " "
-				<< math << endl;
+			cout << _sg.idNum << " "
+				<< _sg.name << " "
+				<< _sg.kor << " "
+				<< _sg.eng << " "
+				<< _sg.math << endl;
 		}
 	}
 	else
@@ -56,6 +56,23 @@ int StudentGrade::readFile()
 	rFile.close();
 	return line;
 }
+
+int StudentGrade::AllocStudent(int _allocSize)
+{
+	pStudent = new STUINFO[_allocSize];
+	memset(pStudent, 0, sizeof(STUINFO) * _allocSize);
+	allocSize = _allocSize;
+}
+
+StudentGrade::~StudentGrade()
+{
+	if (pStudent != nullptr)
+	{
+		delete[] pStudent;
+		pStudent = nullptr;
+	}
+}
+
 int CheckFileSize::getFileLine()
 {
 	int line = 0;
