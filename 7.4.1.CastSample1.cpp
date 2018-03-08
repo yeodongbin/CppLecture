@@ -73,15 +73,15 @@ public:
 
 int main()
 {
-	//CMyData* pData = new CMyDataEx;
-	//CMyDataEx* pNewData = NULL;
+	CMyData* pData = new CMyDataEx;
+	CMyDataEx* pNewData = NULL;
 
-	//pData->SetData(15);
+	pData->SetData(15);
 
-	////static_cast = 하향형변화
-	//pNewData = static_cast<CMyDataEx*>(pData); //형변환 문제가 발생할 수 있다.
-	//pNewData->PrintData();
-	//delete pData;
+	//static_cast = 하향형변화
+	pNewData = static_cast<CMyDataEx*>(pData); //형변환 문제가 발생할 수 있다.
+	pNewData->PrintData();
+	delete pData;
 
 
 	//Dynamic Cast

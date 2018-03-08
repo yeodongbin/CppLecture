@@ -5,21 +5,16 @@ using namespace std;
 
 class CMyData
 {
-private: // 누구도 접근 불가
-	int m_nData = 0;
-protected: //파생 클래스만 접근 가능
-	void PrintData()
-	{
-		cout << "CMData::PrintData()" << endl;
-	}
-public:
-	CMyData() //생성자
-	{ 
-		cout << "CMyData()" << endl; 
-	} 
-
+public:		//누구나 접근 가능
+	CMyData() { cout << "CMyData()" << endl; }
 	int GetData() { return m_nData; }
 	void SetData(int nParam) { m_nData = nParam; }
+
+protected:	//파생 클래스만 접근 가능
+	void PrintData() { cout << "CMyData::PrintData()" << endl; }
+
+private:	//누구도 접근 불가능
+	int m_nData = 0;
 };
 
 class CMyDataEx : public CMyData // 상속 CMyDataEx <<<<<<<<< CMyData
@@ -54,7 +49,7 @@ int main()
 {
 	CMyDataEx data;
 
-	data.SetData(20);
+	data.SetData(10);
 	cout << data.GetData() << endl;
 
 	data.TestFunc();

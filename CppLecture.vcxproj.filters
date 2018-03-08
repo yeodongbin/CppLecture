@@ -117,9 +117,6 @@
     <ClCompile Include="4.1.2.BadShallowCopy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4.1.2.CopyOnstructor2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="4.2.2.AutoTypeCast.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -280,6 +277,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex.StudentGradeFunc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.1.2.CopyConstructor2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2.1.ImTypeCast.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.1.OperFuncExample.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
