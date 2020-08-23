@@ -57,7 +57,7 @@ int main()
 
 	printf("%d %s %s \n", nAge, szJob, szName);*/
 
-	/*
+
 	int nAge;
 	std::cout << "Enter Your Age" << std::endl;
 	std::cin >> nAge;
@@ -70,7 +70,7 @@ int main()
 	std::cout << "Enter Your Name" << std::endl;
 	std::cin >> strName;
 
-	std::cout << nAge << " " << szJob << " " << strName	<<std::endl;*/
+	std::cout << nAge << " " << szJob << " " << strName	<<std::endl;
 
 
 	return 0;

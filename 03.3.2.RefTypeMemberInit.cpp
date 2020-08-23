@@ -17,6 +17,10 @@ private:
 
 int main()
 {
+	int nData = 10;
+	int nData2(20);
+	int nData3(nData);
+
 	int a = 10;
 	CRefTest t(a);//Ref Type
 
