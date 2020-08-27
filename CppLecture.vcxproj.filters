@@ -42,37 +42,7 @@
     <ClCompile Include="6.3.2.SelectConstructor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="7.1.1.VirtualFunction.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7.1.3.VirtualDestructor.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7.3.0.PureVirtualSample.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7.4.1.CastSample1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7.4.2.CastSample2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7.5.InheritOperOver.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7.6.1.MultiInherit.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7.6.3.Multi_Inherit_Interface.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="8.2.1.Compositions_Aggregation.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.1.2.TemplateParam.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.2.1.TemplateFunctionSpecial.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="12.2.0.cpp">
@@ -91,21 +61,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="13.FileIO.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.1.0.TemplateSample.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.1.0.TemplateArray.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.1.1.TamplateMember.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.2.2.TemplateSpecial.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.3.0.TemplateInherit.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex.SportsCar.cpp">
@@ -133,12 +88,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10.1.2.MultiCatch.cpp.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.4.1.AutoPtrSample.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.4.2.SharePtrSample.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex.StudentGradeMain.cpp">
@@ -289,6 +238,57 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="07.3.2.AbstractSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.1.0.TemplateArray.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.1.0.TemplateSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.1.1.TamplateMember.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.1.2.TemplateParam.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.2.1.TemplateFunctionSpecial.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.2.2.TemplateSpecial.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.3.0.TemplateInherit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.4.1.AutoPtrSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.4.2.SharePtrSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07.1.1.VirtualFunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07.1.3.VirtualDestructor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07.3.0.PureVirtualSample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07.4.1.CastSample1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07.4.2.CastSample2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07.5.InheritOperOver.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07.6.1.MultiInherit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07.6.3.Multi_Inherit_Interface.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

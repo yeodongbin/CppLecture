@@ -48,21 +48,21 @@ int main(void)
 
 	wFile << "dongbin " << 30 << std::endl;
 	wFile << "yeodongbin " << 20 << std::endl;
-	
+
 	cin >> name >> age;
 	wFile << name << " " << age << endl;
 
 	wFile.close();
 
 	//파일 읽기
-	ifstream rFile("C:/test/test.txt"); 
+	ifstream rFile("C:/test/test.txt");
 	while (!rFile.eof())
 	{
 		rFile.getline(name, 100);
 		cout << name << endl;
 	}
 	rFile.close(); //파일 읽기 닫기
-	
+
 
 
 
@@ -78,14 +78,11 @@ int main(void)
 		wFile.close();
 	}
 
-
-
-
 	ifstream rFile; //Object 생성
 	rFile.open("C:/test/test1.txt");
 	while (!rFile.eof()) {
 		rFile.getline(name, 100);
-		cout << name <<endl;
+		cout << name << endl;
 	}
 	if (rFile.is_open() == true)
 	{
