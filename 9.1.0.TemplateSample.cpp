@@ -9,8 +9,8 @@ private:
 	T m_Data;
 
 public:
-	CMyData(T param) : m_Data(param) {}
-	operator T() { return m_Data; } //변환 생성자, 맴버변수가 1개 일때
+	CMyData(T param) : m_Data(param) {} //변환 생성자,
+	operator T() { return m_Data; }     //변환 함수, 맴버변수가 1개 일때
 
 	T GetData() const { return m_Data; }
 	void SetData(T param) { m_Data = param; }
